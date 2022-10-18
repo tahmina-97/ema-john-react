@@ -13,6 +13,7 @@ const addToDb = id => {
     }
     localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
 }
+
 const getStoredCart = () => {
     let shoppingCart = {};
 
